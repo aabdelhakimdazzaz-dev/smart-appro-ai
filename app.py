@@ -91,3 +91,13 @@ else:
 
 st.divider()
 st.markdown("**V1.0 Stable | Prochaine étape V2.0: Upload Excel SAP + Modèle XGBoost Temps Réel**")
+
+\import streamlit as st
+import pandas as pd
+import plotly.express as px
+
+# Zid hadi lfo9
+st.cache_resource.clear()
+
+st.set_page_config(page_title="Smart Appro AI", page_icon="🚚", layout="wide")
+# ... b9i l code kaml
