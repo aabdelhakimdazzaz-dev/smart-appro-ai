@@ -101,3 +101,16 @@ st.cache_resource.clear()
 
 st.set_page_config(page_title="Smart Appro AI", page_icon="🚚", layout="wide")
 # ... b9i l code kaml
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+
+# Zid hadi lfo9 9bel ay 7aja
+@st.cache_resource
+def init():
+    return True
+
+init()
+
+st.set_page_config(page_title="Smart Appro AI", page_icon="🚚", layout="wide")
+# ... b9i l code dyalk kaml kima howa
